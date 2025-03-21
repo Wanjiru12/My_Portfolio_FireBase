@@ -1,17 +1,20 @@
-import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+// src/firebase.js
+import { initializeApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
+import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCgIRE1qmtxnxSm4YaFmIRgiJn6v4gi0bQ",
-  authDomain: "portfoliosite-ea92a.firebaseapp.com",
-  projectId: "portfoliosite-ea92a",
-  storageBucket: "portfoliosite-ea92a.firebasestorage.app",
-  messagingSenderId: "642985381374",
-  appId: "1:642985381374:web:f6decce3e9ba083a0244af",
-  measurementId: "G-VH820L9ES2",
+  apiKey: 'YOUR_API_KEY',
+  authDomain: 'YOUR_AUTH_DOMAIN',
+  projectId: 'YOUR_PROJECT_ID',
+  storageBucket: 'YOUR_STORAGE_BUCKET',
+  messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+  appId: 'YOUR_APP_ID',
 };
 
 const app = initializeApp(firebaseConfig);
-export const auth = getAuth(app);
-export const db = getFirestore(app);
+const auth = getAuth(app); // Initialize Firebase Auth
+const db = getFirestore(app); // Initialize Firestore
+
+// Export auth and db to be used in other files..
+export { auth, db };
