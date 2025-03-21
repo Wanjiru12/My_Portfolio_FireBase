@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/My_Portfolio_FireBase/static/css/main.9534d78c.css",
+    "main.js": "/My_Portfolio_FireBase/static/js/main.066f14ab.js",
+    "index.html": "/My_Portfolio_FireBase/index.html",
+    "main.9534d78c.css.map": "/My_Portfolio_FireBase/static/css/main.9534d78c.css.map",
+    "main.066f14ab.js.map": "/My_Portfolio_FireBase/static/js/main.066f14ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9534d78c.css",
+    "static/js/main.066f14ab.js"
+  ]
+}
